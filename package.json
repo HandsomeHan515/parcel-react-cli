@@ -1,0 +1,22 @@
+{
+  "name": "parcel-react-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^7.2.5",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.5.1",
+    "postcss-modules": "^1.1.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "scripts": {
+    "start": "cross-env NODE_ENV=development parcel ./public/index.html",
+    "build": " cross-env NODE_ENV=production parcel build -d build ./public/index.html --no-minify --public-url ./"
+  },
+  "devDependencies": {
+    "cross-env": "^5.1.3"
+  }
+}
