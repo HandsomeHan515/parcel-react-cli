@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../styles/global.css';
+import '../styles/global.less';
 
 class Hello extends Component {
   render() {

@@ -17,6 +17,7 @@
     "build": " cross-env NODE_ENV=production parcel build -d build ./public/index.html --no-minify --public-url ./"
   },
   "devDependencies": {
-    "cross-env": "^5.1.3"
+    "cross-env": "^5.1.3",
+    "less": "^2.7.3"
   }
 }

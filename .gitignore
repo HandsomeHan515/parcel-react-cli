@@ -7,7 +7,7 @@
 # production
 /build
 /dist
-.catch
+.cache
 
 # misc
 .DS_Store
